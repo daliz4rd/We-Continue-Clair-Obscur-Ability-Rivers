@@ -1,0 +1,28 @@
+:root {
+  --bg: #f7f5f0;
+  --text: #1f1d1a;
+  --muted: #6b665e;
+
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141312;
+    --text: #ece8e1;
+    --muted: #a39d93;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
